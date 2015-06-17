@@ -1,0 +1,478 @@
+
+<!DOCTYPE html>
+<html>
+
+    <head>
+          <title>jQuery Mobile page</title>
+		  <meta charset="utf-8" />
+		  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, usr-scalable=no">
+		  <link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+		  <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" /> 
+          <!-- <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.0/jquery.mobile-1.4.0.min.css" />-->
+		  <link rel="stylesheet" href="http://demos.jquerymobile.com/1.4.0/theme-classic/theme-classic.css" />
+		  <link rel="stylesheet" href="trial2.css"> 
+		  <script type="text/javascript" src="data.js"></script>  
+          <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+          <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+          <script src="phonegap.js"></script>
+          <link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
+          <link href='http://fonts.googleapis.com/css?family=Kalam:400,300' rel='stylesheet' type='text/css'>
+    </head>
+
+    <body class="ui-body-b">                           
+
+        <div data-role="panel" id="navpanel" data-display="overlay" data-position="right" data-theme="a">
+           <div data-role="controlgroup" data-corners="false">
+            <a href="#" id="listview" data-role="button">Listview</a>
+            <a href="#" id="study" data-role="button">Study</a>
+            <a href="#" id="test" data-role="button">Test</a>
+            <a href="#" id="quit" data-role="button">Quit</a>
+           </div>
+        </div>                                             
+
+        <div data-role="header" data-id="head" data-position="fixed" data-theme="a"> 
+ 				<h1 id="header">Listview</h1>
+ 				<a id="bars-button" data-icon="bars"  class="ui-btn-right" href="#navpanel">Menu</a>
+		</div><!-- /header -->
+
+										<!-- PAGE 1 -->
+										
+        <div class="ui-content" id="pg1">
+
+        <audio id="success" src="success.mp3" type="audio/mpeg"></audio>
+
+	        <div class="audio_files">
+
+	            <audio id="audio1" src="" type="audio/mpeg"></audio>
+	            <audio id="audio2" src="" type="audio/mpeg"></audio>
+	            <audio id="audio3" src="" type="audio/mpeg"></audio>
+	            <audio id="audio4" src="" type="audio/mpeg"></audio>
+	            <audio id="audio5" src="" type="audio/mpeg"></audio>
+	            <audio id="audio6" src="" type="audio/mpeg"></audio>
+	            <audio id="audio7" src="" type="audio/mpeg"></audio>
+	            <audio id="audio8" src="" type="audio/mpeg"></audio>
+	            <audio id="audio9" src="" type="audio/mpeg"></audio>
+	            <audio id="audio10" src="" type="audio/mpeg"></audio>
+
+	            <audio id="audio11" src="" type="audio/mpeg"></audio>
+	            <audio id="audio12" src="" type="audio/mpeg"></audio>
+	            <audio id="audio13" src="" type="audio/mpeg"></audio>
+	            <audio id="audio14" src="" type="audio/mpeg"></audio>
+	            <audio id="audio15" src="" type="audio/mpeg"></audio>
+	            <audio id="audio16" src="" type="audio/mpeg"></audio>
+	            <audio id="audio17" src="" type="audio/mpeg"></audio>
+	            <audio id="audio18" src="" type="audio/mpeg"></audio>
+	            <audio id="audio19" src="" type="audio/mpeg"></audio>
+	            <audio id="audio20" src="" type="audio/mpeg"></audio>
+
+	            <audio id="audio21" src="" type="audio/mpeg"></audio>
+	            <audio id="audio22" src="" type="audio/mpeg"></audio>
+	            <audio id="audio23" src="" type="audio/mpeg"></audio>
+	            <audio id="audio24" src="" type="audio/mpeg"></audio>
+	            <audio id="audio25" src="" type="audio/mpeg"></audio>
+	            <audio id="audio26" src="" type="audio/mpeg"></audio>
+	            <audio id="audio27" src="" type="audio/mpeg"></audio>
+	            <audio id="audio28" src="" type="audio/mpeg"></audio>
+	            <audio id="audio29" src="" type="audio/mpeg"></audio>
+	            <audio id="audio30" src="" type="audio/mpeg"></audio>
+
+	        </div>
+
+    		<div data-role="collapsible-set" class="marg_20">
+	    		<div data-role="collapsible" data-theme="b">
+	    		    <h4>Lesson 1 <span id="count1" class="ui-li-count">0 %</span></h4>
+
+	    		        <div class="par ui-grid-b">
+
+		    		    	<div class="col1 ui-block-a">
+		    		    	    <p><img onclick="playAudio('audio1')" class="img first_sound" src="sound_black.png"></p>
+		    		    	    <p><img onclick="playAudio('audio2')" class="img" src="sound_black.png"></p>
+		    		    	    <p><img onclick="playAudio('audio3')" class="img" src="sound_black.png"></p>
+		    		    	    <p><img onclick="playAudio('audio4')" class="img" src="sound_black.png"></p>
+		    		    	    <p><img onclick="playAudio('audio5')" class="img" src="sound_black.png"></p>
+		    		    	    <p><img onclick="playAudio('audio6')" class="img" src="sound_black.png"></p>
+		    		    	    <p><img onclick="playAudio('audio7')" class="img" src="sound_black.png"></p>
+		    		    	    <p><img onclick="playAudio('audio8')" class="img" src="sound_black.png"></p>
+		    		    	    <p><img onclick="playAudio('audio9')" class="img" src="sound_black.png"></p>
+		    		    	    <p><img onclick="playAudio('audio10')" class="img" src="sound_black.png"></p>
+			    		    </div>
+
+			    		    <div class="col2 ui-block-b" id="one_eng">
+			    		    	<p></p>
+			    		    	<p></p>	
+			    		    	<p></p>	
+			    		    	<p></p>	
+			    		    	<p></p>	
+			    		    	<p></p>
+			    		    	<p></p>	
+			    		    	<p></p>	
+			    		    	<p></p>	
+			    		    	<p></p>
+			    		    </div>
+
+	    		        	<div class="col3 ui-block-c" id="one_pol">
+	    		        		<p></p>
+			    		    	<p></p>	
+			    		    	<p></p>	
+			    		    	<p></p>	
+			    		    	<p></p>	
+			    		    	<p></p>
+			    		    	<p></p>	
+			    		    	<p></p>	
+			    		    	<p></p>	
+			    		    	<p></p>	
+			    		    </div>
+
+		    		    </div>
+
+    		    </div>
+    		    <div data-role="collapsible"  data-theme="b">
+	    		    <h4>Lesson 2  <span id="count2" class="ui-li-count">0 %</span></h4>
+	    		    	<div class="par ui-grid-b">
+
+		    		    	<div class="col1 ui-block-a">
+		    		    	    <p><img onclick="playAudio('audio11')" class="img first_sound" src="sound_black.png"></p>
+		    		    	    <p><img onclick="playAudio('audio12')" class="img" src="sound_black.png"></p>
+		    		    	    <p><img onclick="playAudio('audio13')" class="img" src="sound_black.png"></p>
+		    		    	    <p><img onclick="playAudio('audio14')" class="img" src="sound_black.png"></p>
+		    		    	    <p><img onclick="playAudio('audio15')" class="img" src="sound_black.png"></p>
+		    		    	    <p><img onclick="playAudio('audio16')" class="img" src="sound_black.png"></p>
+		    		    	    <p><img onclick="playAudio('audio17')" class="img" src="sound_black.png"></p>
+		    		    	    <p><img onclick="playAudio('audio18')" class="img" src="sound_black.png"></p>
+		    		    	    <p><img onclick="playAudio('audio19')" class="img" src="sound_black.png"></p>
+		    		    	    <p><img onclick="playAudio('audio20')" class="img" src="sound_black.png"></p>
+			    		    </div>
+
+			    		    <div class="col2 ui-block-b" id="two_eng">
+			    		    	<p></p>
+			    		    	<p></p>	
+			    		    	<p></p>	
+			    		    	<p></p>	
+			    		    	<p></p>	
+			    		    	<p></p>
+			    		    	<p></p>	
+			    		    	<p></p>	
+			    		    	<p></p>	
+			    		    	<p></p>	
+			    		    </div>
+
+	    		        	<div class="col3 ui-block-c" id="two_pol">
+	    		        		<p></p>
+			    		    	<p></p>	
+			    		    	<p></p>	
+			    		    	<p></p>	
+			    		    	<p></p>	
+			    		    	<p></p>
+			    		    	<p></p>	
+			    		    	<p></p>	
+			    		    	<p></p>	
+			    		    	<p></p>
+			    		    </div>
+
+		    		    </div>
+    		    </div>
+    		    <div data-role="collapsible"  data-theme="b">
+	    		    <h4>Lesson 3 <span id="count3" class="ui-li-count">0 %</span></h4>
+	    		    	<div class="par ui-grid-b">
+
+		    		    	<div class="col1 ui-block-a">
+		    		    	    <p><img onclick="playAudio('audio21')" class="img first_sound" src="sound_black.png"></p>
+		    		    	    <p><img onclick="playAudio('audio22')" class="img" src="sound_black.png"></p>
+		    		    	    <p><img onclick="playAudio('audio23')" class="img" src="sound_black.png"></p>
+		    		    	    <p><img onclick="playAudio('audio24')" class="img" src="sound_black.png"></p>
+		    		    	    <p><img onclick="playAudio('audio25')" class="img" src="sound_black.png"></p>
+		    		    	    <p><img onclick="playAudio('audio26')" class="img" src="sound_black.png"></p>
+		    		    	    <p><img onclick="playAudio('audio27')" class="img" src="sound_black.png"></p>
+		    		    	    <p><img onclick="playAudio('audio28')" class="img" src="sound_black.png"></p>
+		    		    	    <p><img onclick="playAudio('audio29')" class="img" src="sound_black.png"></p>
+		    		    	    <p><img onclick="playAudio('audio30')" class="img" src="sound_black.png"></p>
+			    		    </div>
+
+			    		    <div class="col2 ui-block-b" id="three_eng">
+			    		    	<p></p>
+			    		    	<p></p>	
+			    		    	<p></p>	
+			    		    	<p></p>	
+			    		    	<p></p>	
+			    		    	<p></p>
+			    		    	<p></p>	
+			    		    	<p></p>	
+			    		    	<p></p>	
+			    		    	<p></p>
+			    		    </div>
+
+	    		        	<div class="col3 ui-block-c" id="three_pol">
+	    		        		<p></p>
+			    		    	<p></p>	
+			    		    	<p></p>	
+			    		    	<p></p>	
+			    		    	<p></p>	
+			    		    	<p></p>
+			    		    	<p></p>	
+			    		    	<p></p>	
+			    		    	<p></p>	
+			    		    	<p></p>
+			    		    </div>
+
+		    		    </div>
+    		    </div>
+    	    </div> <!-- /collapsible-set -->
+    	</div><!-- ui-content -->
+
+
+
+				<!-- PAGE 3 -->
+
+
+		<div id="pg3" style="display:none">  
+
+
+				<div class="ui-content">
+
+				<div id="study_bar_outer">
+				    <div id="study_bar_inner"></div>
+				</div>
+
+    		    <div id="present" style="text-align:center" class="marg_40">
+					<img id="present_img" src="images/glass.jpg" style="width:240px" class="ui-overlay-shadow ui-corner-all">
+					<div class="marg_40" >
+						<img id="present_audio" onclick="playAudio('audio5')" class="img_study" src="sound_black.png">
+						<span id="present_eng" class="eng_word"></span>
+					</div>
+					<p id="present_pol" class="pol_word"></p>
+					<p id="present_example" class="marg_20 example_font"></p>
+					<div class="marg_40">
+						<a data-role="button" data-icon="arrow-r" data-iconpos="right" data-mini="true" data-inline="true" id="cont_pres">Continue</a>
+					</div>
+				</div><!-- /present task -->
+
+
+
+
+				<div id="eng_pol" style="text-align:center; display:none" class="marg_80">
+					<div class="marg_40" >
+						<img id="eng_pol_audio" onclick="playAudio('audio2')" class="img_study" src="sound_black.png">
+						<span id="eng_pol_eng" class="eng_word"></span>
+					</div>
+					<div class="list_view">
+					<ul data-role="listview" data-inset="true" style="margin:40px"> <!-- data-inset: intentation and rounding. in ui-content. -->
+		    			<li data-icon="false"><a id="eng_pol_li1" style="text-align:center"></a></li>
+		    			<li data-icon="false"><a id="eng_pol_li2" style="text-align:center"></a></li>
+		    			<li data-icon="false"><a id="eng_pol_li3" style="text-align:center"></a></li>
+		    			<li data-icon="false"><a id="eng_pol_li4" style="text-align:center"></a></li>
+	    		    </ul>
+	    		    </div>
+				</div><!-- /eng_pol task -->
+
+
+
+
+				<div id="sound" style="text-align:center; display:none" class="marg_80">
+					<div class="marg_40" style="text-align:center">
+						<img id="sound_audio" onclick="playAudio('audio3')" class="img ui-corner-all" src="sound.png" style="height:30px; width:30px; background:#9C58AF; padding:10px;">
+					</div>
+
+					<div class="list_view">
+					<ul data-role="listview" data-inset="true" style="margin:40px"> 
+		    			<li data-icon="false"><a id="sound_li1" style="text-align:center"></a></li>
+		    			<li data-icon="false"><a id="sound_li2" style="text-align:center"></a></li>
+		    			<li data-icon="false"><a id="sound_li3" style="text-align:center"></a></li>
+		    			<li data-icon="false"><a id="sound_li4" style="text-align:center"></a></li>
+	    		    </ul>
+	    		    </div>
+				</div><!-- /sound task -->
+
+
+
+
+				<div id="example" style="text-align:center; display:none" class="marg_40">
+					<img id="example_img" src="images/nice.jpg" style="width:240px" class="ui-overlay-shadow ui-corner-all">
+					<p id="example_example" class="marg_40 example_font"></p>
+
+					<div class="list_view">
+					<ul data-role="listview" data-inset="true" style="margin:40px" data-mini="true"> 
+		    			<li data-icon="false"><a id="example_li1" style="text-align:center"></a></li>
+		    			<li data-icon="false"><a id="example_li2" style="text-align:center"></a></li>
+		    			<li data-icon="false"><a id="example_li3" style="text-align:center"></a></li>
+		    			<li data-icon="false"><a id="example_li4" style="text-align:center"></a></li>
+	    		    </ul>
+	    		    </div>
+				</div><!-- /example task -->
+
+
+
+
+				<div id="rewrite" style="text-align:center; display:none" class="marg_40">
+
+					<p style="color:#444"><i>Rewrite this word:</i></p>
+										
+					<div class="marg_20" >
+						<img id="rewrite_audio" onclick="playAudio('audio2')" class="img_study" src="sound_black.png">
+						<span id="rewrite_eng" class="eng_word"></span>
+					</div>
+
+					<div class="marg_40 center">
+
+						<input type="text" value="" id="input_field_rewrite" readonly>
+
+						<div class="ui-corner-all marg_20">
+
+							<div class="par ui-grid-c">
+					    		<div class="ui-block-a">
+					    			<a data-role="button" class="key_rewrite"></a>
+					    			<a data-role="button" class="key_rewrite"></a>
+					    			<a data-role="button" class="key_rewrite"></a>
+					    		</div>
+					    		<div class="ui-block-b">
+					    			<a data-role="button" class="key_rewrite"></a>
+					    			<a data-role="button" class="key_rewrite"></a>
+					    			<a data-role="button" class="key_rewrite"></a>
+					    		</div>
+					    		<div class="ui-block-c">
+					    			<a data-role="button" class="key_rewrite"></a>
+					    			<a data-role="button" class="key_rewrite"></a>
+					    			<a data-role="button" class="key_rewrite"></a>
+					    		</div>
+					    		<div class="ui-block-d">
+						    		<a data-role="button" class="key_rewrite"></a>
+						    		<a data-role="button" class="key_rewrite"></a>
+					    			<a data-role="button" style="background:#2E2F2F" class="key_back_rewrite">
+					    				<img src="carat-l-white.png">
+					    			</a>
+					    		</div>
+					    	</div><!-- /grid -->
+
+
+				    	</div><!-- /keyboard -->
+
+						<div class="marg_40">
+							<a href="#" data-role="button" data-icon="check" data-iconpos="right" data-mini="true"  data-inline="true" id="sub_rewrite">Submit</a>
+						</div>
+			    	</div><!-- /center -->
+
+				</div> 
+
+
+
+
+				<div id="writing" style="text-align:center; display:none" class="marg_40">
+
+					<p id="writing_pol" class="pol_word" style="font-size:20px"></p>
+
+					<div class="marg_40 center">
+
+						<input type="text" value="" id="input_field_writing" readonly>
+
+						<div class="ui-corner-all marg_20">
+
+							<div class="par ui-grid-c">
+					    		<div class="ui-block-a">
+					    			<a data-role="button" class="key_writing"></a>
+					    			<a data-role="button" class="key_writing"></a>
+					    			<a data-role="button" class="key_writing"></a>
+					    		</div>
+					    		<div class="ui-block-b">
+					    			<a data-role="button" class="key_writing"></a>
+					    			<a data-role="button" class="key_writing"></a>
+					    			<a data-role="button" class="key_writing"></a>
+					    		</div>
+					    		<div class="ui-block-c">
+					    			<a data-role="button" class="key_writing"></a>
+					    			<a data-role="button" class="key_writing"></a>
+					    			<a data-role="button" class="key_writing"></a>
+					    		</div>
+					    		<div class="ui-block-d">
+						    		<a data-role="button" class="key_writing"></a>
+						    		<a data-role="button" class="key_writing"></a>
+					    			<a data-role="button" style="background:#2E2F2F" class="key_back_writing">
+					    				<img src="carat-l-white.png">
+					    			</a>
+					    		</div>
+					    	</div><!-- /grid -->
+
+
+				    	</div><!-- /keyboard -->
+
+						<div class="marg_40">
+							<a href="#" data-role="button" data-icon="check" data-iconpos="right" data-mini="true" data-inline="true" id="sub_writing">Submit</a>
+						</div>
+			    	</div><!-- /center -->
+
+				</div><!-- /writing task -->
+
+
+
+
+
+				<div id="dictation" style="text-align:center; display:none" class="marg_40">
+
+					<div class="marg_40" style="text-align:center">
+						<img id="dictation_audio" onclick="playAudio('audio4')" class="img ui-corner-all" src="sound.png" style="height:30px; width:30px; background:#9C58AF; padding:10px;">
+					</div>
+
+					<div class="marg_40 center">
+
+						<input type="text" value="" id="input_field_dictation" readonly>
+
+						<div class="ui-corner-all marg_20">
+
+							<div class="par ui-grid-c">
+					    		<div class="ui-block-a">
+					    			<a data-role="button" class="key_dictation"></a>
+					    			<a data-role="button" class="key_dictation"></a>
+					    			<a data-role="button" class="key_dictation"></a>
+					    		</div>
+					    		<div class="ui-block-b">
+					    			<a data-role="button" class="key_dictation"></a>
+					    			<a data-role="button" class="key_dictation"></a>
+					    			<a data-role="button" class="key_dictation"></a>
+					    		</div>
+					    		<div class="ui-block-c">
+					    			<a data-role="button" class="key_dictation"></a>
+					    			<a data-role="button" class="key_dictation"></a>
+					    			<a data-role="button" class="key_dictation"></a>
+					    		</div>
+					    		<div class="ui-block-d">
+						    		<a data-role="button" class="key_dictation"></a>
+						    		<a data-role="button" class="key_dictation"></a>
+					    			<a data-role="button" style="background:#2E2F2F" class="key_back_dictation">
+					    				<img src="carat-l-white.png">
+					    			</a>
+					    		</div>
+					    	</div><!-- /grid -->
+
+
+				    	</div><!-- /keyboard -->
+
+						<div class="marg_40">
+							<a data-role="button" data-icon="check" data-iconpos="right" data-mini="true" data-inline="true" id="sub_dictation">Submit</a>
+						</div>
+			    	</div><!-- /center -->
+
+				</div><!-- /writing task -->
+
+				<div id="lesson_end" style="text-align:center; display:none" class="marg_80">
+					<p id="congrats">Congratulations!</p>
+					<p id="congrats2">You have finished this lesson.</p> 
+					<p id="go_test" class="marg_80" style="display:none">Go ahead and test your knowledge by selecting 'Test' from the Menu.</p> 
+					<a data-role="button" id="next_lesson" class="marg_60" data-mini="true" data-inline="true">Start Lesson 2</a>
+				</div>
+				</div>
+    	</div><!-- /pg3 -->
+
+
+
+										<!-- PAGE 4 -->
+
+
+		<div class="ui-content" id="pg4" style="display:none">
+			<p>The test is a combination of some of the tasks from 'Study', not all seven, but 2 or 3 more difficult ones involving writing and listening. The test checks the knowledge of all 30 words from the three currently downloaded lessons. After the test has been passed students can download more lessons.</p>
+			<a data-role="button" data-mini="true" data-inline="true" id="download">Load 3 Norwegian lessons</a>
+			<p>Students can't <i>pause</i> doing the test by going to 'Listview', 'Study' or by leaving the app. If they do the test is automatically reset.</p>
+			
+    	</div><!-- /ui-content -->
+    
+        <script type="text/javascript" src="trial2.js"></script>        
+    </body>
+
+</html>

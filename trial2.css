@@ -1,0 +1,147 @@
+
+
+@font-face {
+    font-family: 'lobsterregular';
+    src: url('fonts/Lobster-Regular-webfont.eot');
+    src: url('fonts/Lobster-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Lobster-Regular-webfont.woff2') format('woff2'),
+         url('fonts/Lobster-Regular-webfont.woff') format('woff'),
+         url('fonts/Lobster-Regular-webfont.ttf') format('truetype'),
+         url('fonts/Lobster-Regular-webfont.svg#lobsterregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+.eng_word {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.pol_word {
+	font-family: 'Ubuntu', sans-serif;
+	color: #444;
+}
+
+.example_font {
+	font-family: 'Kalam', cursive;
+	border-top: 1px solid #444;
+	border-bottom: 1px solid #444;
+	padding:10px;
+	color: #266A2E;
+}
+
+#congrats {
+	text-shadow: 0px 2px 1px #4d4d4d;
+	color: #222;
+	font: 40px 'LobsterRegular';
+}
+
+#congrats2 {
+	text-shadow: 0px 1px 0px #4d4d4d;
+	color: #222;
+	font: 25px 'LobsterRegular';
+	margin-top: -30px;
+}
+
+#go_test {
+	padding:10px;
+	border-top: 1px solid #421C52;
+	border-bottom: 1px solid #421C52;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 15px;
+	color: #421C52;
+}
+
+.ui-page {
+	background: #DDD;
+}
+
+span, p {
+	text-shadow: none;
+	color: black;
+}
+
+.ui-panel-inner {
+	padding:0px; /*make the buttons flush edge to edge*/
+}
+.ui-controlgroup {
+	margin:0; /*make the buttons flush to the top  99CC99  B6B6D8*/   
+}
+
+.col1 {
+	width:20% !important; 
+	text-align: right;
+}
+
+.col2 {
+	width:45% !important;
+}
+
+.col3 {
+	width:35% !important;
+}
+
+.img {
+	margin-right:18px;
+	width:20px;
+	margin-top: -5px;
+}
+
+.first_sound {
+	margin-top: -1px;
+}
+
+.img_study {
+	margin-right:3px;
+	width:20px;
+}
+
+.marg_20 {
+	margin-top:20px;
+}
+
+.marg_40 {
+	margin-top:40px;
+}
+
+.marg_60 {
+	margin-top:60px;
+}
+
+.marg_80 {
+	margin-top:80px;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    width: 240px;
+}
+
+.list_view {
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+}
+
+#study_bar_outer {
+	margin-bottom: 50px;
+	padding:2px;
+	border-radius: 5px;
+    background-color: #2E2F2F;
+}
+
+#study_bar_inner {
+	height: 10px;
+	background-color: #DDDDDD;
+	border-radius: 3px;
+	width: 0%;
+}
+
+#sound_audio,
+#dictation_audio {
+	margin-right: -1px;
+}
